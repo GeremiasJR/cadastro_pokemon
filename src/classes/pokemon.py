@@ -15,3 +15,11 @@ class Pokemon:
     @property
     def nome(self):
         return self.__nome
+
+
+    def __str__(self):
+        return f'''
+        Detalhes do pokemon {self.nome}:
+            id: {self.id}
+            tipo: {self.tipo}'''
+        
