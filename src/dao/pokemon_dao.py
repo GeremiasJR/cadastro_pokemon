@@ -4,7 +4,7 @@ class PokemonDAO():
         self.preenche_valores_json(instancia_pokemon)
     
     def preenche_valores_json(self, instancia):
-        self._pokemon_json['id'] = instancia.id
+        self._pokemon_json['id']   = instancia.id
         self._pokemon_json['tipo'] = instancia.tipo
         self._pokemon_json['nome'] = instancia.nome
 
